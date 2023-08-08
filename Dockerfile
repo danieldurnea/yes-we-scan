@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.18.3
 
 LABEL "com.github.actions.name"="nmap-scanner"
 LABEL "com.github.actions.description"="Yes we scan - GitHub Action powerd nmap scanner"
